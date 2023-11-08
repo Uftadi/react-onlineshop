@@ -4,7 +4,5 @@ const products = [
         name: "",
         price: 0,
     },
-    {
-        
-    }
+    
 ]
