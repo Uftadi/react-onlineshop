@@ -1,7 +1,9 @@
 .App {
     text-align: center;
   }
-  
+  body {
+    background-color: #9bb598;
+  }
   h1 {
     font-size: 40px;
   }
@@ -29,6 +31,8 @@
   }
   
   .cart {
+    background-color: rgb(63, 84, 48);
+    color: aliceblue;
     border: 10px solid #ccc;
     padding: 20px;
     margin: 20px;
