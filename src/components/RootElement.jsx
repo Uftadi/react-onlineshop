@@ -13,8 +13,12 @@ function RootElement() {
 	return (
 		<>
 			<header>
+
+
+				
+
 				<nav className="container">
-					<h1>DS-Shop</h1>
+				<h1>DS OnlineShop </h1>
 					<ul>
 						{items.map((item) => {
 							return (

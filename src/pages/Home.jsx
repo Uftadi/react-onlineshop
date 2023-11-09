@@ -21,7 +21,7 @@ function Home() {
 
 	return (
 		<div className="App">
-			<h1>Online Shopping</h1>
+			
 			<div className="product-list">
 				{products.map((product) => (
 					<div key={product.id} className="product">
