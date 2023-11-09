@@ -1,0 +1,27 @@
+.form-container{
+
+    color: white;
+    form{
+        width: 80%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input{
+            height: 40px;
+            width: 100%;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+}
+        button{
+            margin-top: 30px;
+            height: 40px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: red;
+        }
+    }
+}
