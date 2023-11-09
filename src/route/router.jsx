@@ -3,9 +3,9 @@ import React from "react";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import SingleProduct from "../pages/SingleProduct";
-import NotFoundPage from "../pages/NotFoundPage";
 import RootElement from "../components/RootElement";
 import Contact from "../pages/Contact";
+import NotFoundPage from "../pages/NotFoundPage";
 
 const router = createBrowserRouter([
 	{
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 				element: <SingleProduct />,
 			},
 			{
-				path: "/contuct-us",
+				path: "/contact-us",
 				element: <Contact />,
 			},
 			{

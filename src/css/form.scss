@@ -1,12 +1,31 @@
 .form-container{
-
+    width: 300px;
+    height: 550px;
+    margin: 50px  auto 0 auto ;
+    background-color: rgba(0, 0, 0, 0.87);
     color: white;
+    border-radius: 5px;
+    h2{
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+    p{
+        width: 80%;
+        text-align: left;
+        margin-left: 30px;
+        a{
+            color: white;
+        }
+    }
     form{
         width: 80%;
-        padding: 10%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        margin-top: 20px;
         input{
             height: 40px;
             width: 100%;
