@@ -29,18 +29,7 @@
     max-width: 200px;
     border-radius: 10px;
   }
-  
-  .cart {
-    background-color: rgb(63, 84, 48);
-    color: aliceblue;
-    border: 10px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    text-align: left;
-    flex: 0 0 30%;
-    box-sizing: border-box;
-  }
-  
+
   button {
     background-color: #baeef2;
     color: #000000;

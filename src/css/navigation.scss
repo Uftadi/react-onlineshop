@@ -1,6 +1,19 @@
+header{
+  height: 50px;
+}
 .container {
     padding: 0.5em;
     box-shadow: 1px 2px 4px rgb(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h1{
+      margin: 0;
+    }
+    div{
+      align-items: center;
+    }
   }
   
   ul {
@@ -13,11 +26,6 @@
   li {
     margin: 0 20px;
   }
-  h1{
-    display: inline;
-    position: absolute;
-    margin: 0;
-  }
   
   a {
     text-decoration: none;
@@ -25,4 +33,5 @@
     font-weight: bold;
     font-size: 1.3rem;
   }
+
   

@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "../css/App.css";
-import Cart from "../components/Card.jsx";
-
 import one from "../assets/img-1.jpg";
 import two from "../assets/img-2.jpg";
 import three from "../assets/img-3.jpg";
 import four from "../assets/img-4.jpg";
 import five from "../assets/img-5.jpg";
 import six from "../assets/img-6.jpg";
+import { CartContext } from "../conetxt/CardContext";
 
 function Home() {
 	const products = [
@@ -18,12 +17,7 @@ function Home() {
 		{ id: 5, name: "Hodie", price: 22.99, image: five },
 		{ id: 6, name: "T-Shirt", price: 15.99, image: six },
 	];
-
-	const [cart, setCart] = useState([]);
-
-	const addToCart = (product) => {
-		setCart([...cart, product]);
-	};
+	const { cart, addToCart } = useContext(CartContext);
 
 	return (
 		<div className="App">
@@ -38,8 +32,7 @@ function Home() {
 					</div>
 				))}
 			</div>
-			<Cart cartItems={cart} />{" "}
-			{/* Verwende die Cart-Komponente und übergebe den Warenkorb */}
+			{/* <Cart cartItems={cart} />{" "} */}
 		</div>
 	);
 }

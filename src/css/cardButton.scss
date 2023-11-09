@@ -1,0 +1,21 @@
+.cart-image {
+    display: flex;
+    position: relative;
+    img{
+        height: 30px;
+        width: 30px;
+    }
+    p{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: -15px;
+        top: 0px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.692);
+        font-size: 1rem;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+}

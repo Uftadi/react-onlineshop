@@ -6,6 +6,7 @@ import SingleProduct from "../pages/SingleProduct";
 import RootElement from "../components/RootElement";
 import Contact from "../pages/Contact";
 import NotFoundPage from "../pages/NotFoundPage";
+import Cart from "../pages/Cart";
 
 const router = createBrowserRouter([
 	{
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
 			{
 				path: "/contact-us",
 				element: <Contact />,
+			},
+			{
+				path: "/cart",
+				element: <Cart />,
 			},
 			{
 				path: "/*",

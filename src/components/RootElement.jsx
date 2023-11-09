@@ -1,6 +1,8 @@
 import React from "react";
-import { Outlet, Link, NavLink } from "react-router-dom";
-import "../css/navigation.css";
+import { Outlet, Link, NavLink, redirect } from "react-router-dom";
+import cart from "../assets/shopping-cart_4307371.png";
+import "../css/navigation.scss";
+import CartButton from "./CartButton";
 
 function RootElement() {
 	const items = [
@@ -11,8 +13,8 @@ function RootElement() {
 	return (
 		<>
 			<header>
-				<h1>DS-Shop</h1>
 				<nav className="container">
+					<h1>DS-Shop</h1>
 					<ul>
 						{items.map((item) => {
 							return (
@@ -30,6 +32,11 @@ function RootElement() {
 							);
 						})}
 					</ul>
+					<div>
+						<Link to="/cart">
+							<CartButton />
+						</Link>
+					</div>
 				</nav>
 			</header>
 			<main>
