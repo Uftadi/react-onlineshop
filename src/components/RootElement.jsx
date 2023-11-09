@@ -13,10 +13,7 @@ function RootElement() {
 	return (
 		<>
 			<header>
-
-
-				
-
+				<h1>DS-Shop</h1>
 				<nav className="container">
 				<h1>DS OnlineShop </h1>
 					<ul>
