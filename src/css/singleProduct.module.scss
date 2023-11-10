@@ -1,0 +1,17 @@
+.product{
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 650px;
+    width: 500px;
+    border: 3px solid #0f3e15;
+    background-color: rgb(207, 213, 210);
+    border-radius: 20px;
+    text-align: center;
+    img{
+        height: 60%;
+        width: 70%;
+        padding: 3%;
+        border-radius: 10px;
+    }
+}
+

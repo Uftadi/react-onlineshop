@@ -1,31 +1,26 @@
-import React, { useState, useContext } from "react";
-import "../css/App.css";
-import one from "../assets/img-1.jpg";
-import two from "../assets/img-2.jpg";
-import three from "../assets/img-3.jpg";
-import four from "../assets/img-4.jpg";
-import five from "../assets/img-5.jpg";
-import six from "../assets/img-6.jpg";
+import React, { useContext } from "react";
 import { CartContext } from "../conetxt/CardContext";
 import { products } from "../data/data";
 
+// css
+import app from "../css/App.module.css";
+
 function Home() {
 	const { cart, addToCart } = useContext(CartContext);
-
 	return (
-		<div className="App">
-			
-			<div className="product-list">
+		<div className={app}>
+			<div className={app.productList}>
 				{products.map((product) => (
-					<div key={product.id} className="product">
-						<img src={product.image} alt={product.name} />
+					<div key={product.id} className={app.product}>
+						<a href={product.id}>
+							<img src={product.image} alt={product.name} />
+						</a>
 						<h2>{product.name}</h2>
 						<p>Preis: {product.price}</p>
 						<button onClick={() => addToCart(product)}>In den Warenkorb</button>
 					</div>
 				))}
 			</div>
-			{/* <Cart cartItems={cart} />{" "} */}
 		</div>
 	);
 }
