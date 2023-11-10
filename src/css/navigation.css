@@ -1,25 +1,8 @@
-header{
-  height: 50px;
-}
 .container {
   background-color: rgb(9, 81, 8);
  
     padding: 0.5em;
-
-    box-shadow: 1px 2px 4px rgb(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    h1{
-      margin: 0;
-    }
-    div{
-      align-items: center;
-    }
-
     box-shadow: 1px 2px 4px rgba(228, 220, 220, 0.1);
-
   }
   
   ul {
@@ -34,7 +17,6 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 20px;
   }
-
   h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color: aliceblue;
@@ -42,7 +24,6 @@ header{
     position: absolute;
     margin: 0;
   }
-
   
   a {
     
@@ -51,9 +32,6 @@ header{
     font-weight: bold;
     font-size: 1.3rem;
   }
-
-
-
   
   @media (max-width: 768px) {
     .container {
@@ -75,5 +53,4 @@ header{
   
   
   
-
   
