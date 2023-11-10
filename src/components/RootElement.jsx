@@ -13,9 +13,9 @@ function RootElement() {
 	return (
 		<>
 			<header>
-				<h1>DS OnlineShop </h1>
+			<h1>DS OnlineShop </h1>
 				<nav className="container">
-				<h1>DS OnlineShop </h1>
+				
 					<ul>
 						{items.map((item) => {
 							return (
@@ -23,7 +23,7 @@ function RootElement() {
 									<NavLink
 										to={item.to}
 										style={({ isActive }) => ({
-											color: isActive ? "white" : "black",
+											color: isActive ? "white" : "rgb(0, 200, 0)",
 											borderBottom: isActive ? "2px solid white" : "none",
 										})}
 									>
