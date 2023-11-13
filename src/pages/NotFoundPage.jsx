@@ -1,5 +1,5 @@
 import React from "react";
-import notFoundPage from "../css/notfoundpage.module.css";
+import notFoundPage from "../css/notfoundpage.module.scss";
 //photo
 import notFound from "../assets/404-pages-sej-5f3ee7ff4966b-760x400.webp";
 
