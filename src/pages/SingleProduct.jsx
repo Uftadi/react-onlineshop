@@ -1,12 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { products } from "../data/data";
 import { useContext } from "react";
 import { CartContext } from "../conetxt/CardContext";
+import { products } from "../data/data";
 // css
 import singleProduct from "../css/singleProduct.module.scss";
 
 function SingleProduct() {
+	const { addToCart } = useContext(CartContext);
 	const { id } = useParams();
 	const product = products.find((product) => product.id === Number(id));
 

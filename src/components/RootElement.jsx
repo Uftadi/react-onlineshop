@@ -12,11 +12,11 @@ function RootElement() {
 	];
 	return (
 		<>
-			<header>
-			
+			<header>		
 				<nav className="container">
 				<h1>DS OnlineShop </h1>
 				
+
 					<ul>
 						{items.map((item) => {
 							return (
