@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import { CartContext } from "../conetxt/CardContext";
 import { products } from "../data/data";
+
 import { Link } from "react-router-dom";
 // css
+
 import app from "../css/App.module.css";
 
 function Home() {
