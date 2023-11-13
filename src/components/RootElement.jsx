@@ -13,8 +13,9 @@ function RootElement() {
 	return (
 		<>
 			<header>
-			<h1>DS OnlineShop </h1>
+			
 				<nav className="container">
+				<h1>DS OnlineShop </h1>
 				
 					<ul>
 						{items.map((item) => {
