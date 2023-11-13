@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, Link, NavLink, redirect } from "react-router-dom";
 import cart from "../assets/shopping-cart_4307371.png";
-import "../css/navigation.scss";
+import nav from "../css/navigation.module.scss";
 import CartButton from "./CartButton";
 
 function RootElement() {
@@ -13,7 +13,7 @@ function RootElement() {
 	return (
 		<>
 			<header>		
-				<nav className="container">
+				<nav className={nav.container}>
 				<h1>DS OnlineShop </h1>
 				
 
