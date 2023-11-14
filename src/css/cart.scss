@@ -1,15 +1,20 @@
   
   .cart {
     width: 500px;
-    height: 500px;
+    height: 600px;
     margin: 100px auto 0 auto;
-    background-color: rgb(63, 84, 48);
-    color: aliceblue;
-    border: 10px solid #ccc;
+    background-color: rgb(207, 213, 210);
+    color: rgb(15, 36, 17);
+    border: 5px solid #0f3e15;
+    border-radius: 15px;
     text-align: center;
     box-sizing: border-box;
+   
+    
+
     h2{
       font-size: 2rem;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     ul{
         
@@ -17,6 +22,61 @@
         flex-direction: column;
         list-style: none;
     }
+    p {
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(255, 68, 0);
+      border: 2px solid #0f3e15;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 70%;
+      
+      border-radius: 5px;
+      background-color: rgb(229, 229, 215);
+
+      
+    }
+
+    .payment-options {
+      border: 2px solid #d5ded0;
+      padding: 10px;
+      margin-top: 20px;
+      
+
+
+      p {
+          margin-bottom: 10px;
+          width:250px;
+          height:20px;
+          
+      }
+
+      label {
+          display: block;
+          margin-bottom: 10px;
+          
+
+          input {
+              margin-right: 5px;
+          }
+      }
+
+      
+  }
+  button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    background-color:rgb(229, 229, 215);
+    color: rgb(12, 11, 11);
+    position: relative;
+  }
+
+    
     
     @media only screen and (max-width: 600px) {
       width: 90%; 
